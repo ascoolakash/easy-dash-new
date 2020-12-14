@@ -1,0 +1,63 @@
+.banner {
+    height: 75px;
+    margin: 0px -10px 10px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.banner h1{
+    color: rgb(66, 196, 247);
+    padding-top: 10px;
+    margin-left: 2%;
+    display: inline-block;
+}
+
+.banner Img{
+    position: relative;
+    float: right;
+    right: 10px;
+    height: 75px;
+}
+
+.dashboard {
+    height: 2400px;
+    margin: 0px -10px 10px;
+    background-color: rgb(255,255,255);
+    border-radius: 2px;
+}
+
+.inline {
+  width: 48%;
+  height: 700px;
+  border:2px black solid;
+  margin: 0px -10px 10px;
+  display: inline-block;
+}
+
+.inline-copy {
+  width: 48%;
+  height: 700px;
+  border:2px black solid;
+  margin: 0px -10px 10px;
+  display: inline-block;
+}
+
+.border {
+    width:96%;
+    height:700px;
+    border:2px black solid;
+    background-color: rgb(59,89,152);
+    borderRadius:5px;
+    textAlign:right;
+    margin:10px;
+}
+
+.inside_block {
+    width:96%;
+    height:700px;
+    border:2px black solid;
+    background-color: rgb(59,89,152);
+    borderRadius:5px;
+    textAlign:right;
+    margin:10px;
+}
