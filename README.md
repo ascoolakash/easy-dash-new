@@ -46,7 +46,7 @@ STEP 2 - Directed to Development Folder
 
 Extract the downloaded or cloned development folder, then move to the development folder:
 
-	C:\>cd easy_dashboard_tensorflow
+	C:\>cd easy-dash-new/easy_dashboard_tensorflow
 	
 	
 STEP 3 (WINDOWS) - Create virtualenv and download all the dependencies:
