@@ -45,6 +45,7 @@ Use below command on command prompt to clone the project form git or directly do
 STEP 2 - Directed to Development Folder
 
 Extract the downloaded or cloned development folder, then move to the development folder:
+
 	C:\>cd easy_dashboard_tensorflow
 	
 	
@@ -52,30 +53,31 @@ STEP 3 (WINDOWS) - Create virtualenv and download all the dependencies:
 
 1. Create a virtual environment. We’re calling ours “venv” but you can use any name you want:
 
-	C:\easy_dashboard_tensorflow>python -m virtualenv venv
+
+		C:\easy_dashboard_tensorflow>python -m virtualenv venv
 
 2. Activate the virtual environment:
 
-	C:\easy_dashboard_tensorflow>.\venv\Scripts\activate 
+		C:\easy_dashboard_tensorflow>.\venv\Scripts\activate 
 
 3. Install dash and any desired dependencies into your virtual environment
 
-	(venv) C:\easy_dashboard_tensorflow>pip install -r requirements.txt
+		(venv) C:\easy_dashboard_tensorflow>pip install -r requirements.txt
 
 
 STEP 3 (macOS/Linux) - Create virtualenv and download all the dependencies:
 
 1. Create a virtual environment. We’re calling ours “venv” but you can use any name you want:
 	
-	$ python3 -m virtualenv venv
+		$ python3 -m virtualenv venv
 	
 2. Activate the virtual environment:
 	
-	$ source venv/bin/activate
+		$ source venv/bin/activate
 
 3. Install dash and any desired dependencies into your virtual environment
 
-	$ pip install -r requirements.txt
+		$ pip install -r requirements.txt
 
 STEP 4 - Run the program:
 
@@ -111,16 +113,16 @@ STEP 3 - Create a Development Folder
 
 1. Create a new folder for your project. This will house the “development” copy of your app:
 
-	C:\>mkdir easy_dashboard_tensorflow
+		C:\>mkdir easy_dashboard_tensorflow
 	
-	C:\>cd easy_dashboard_tensorflow
+		C:\>cd easy_dashboard_tensorflow
 
 
 STEP 4 - Initialize Git
 
 1. Initialize an empty git repository:
 
-	C:\demo_easy_dash>git init
+		C:\demo_easy_dash>git init
 
 Initialized empty Git repository in C:/demo_easy_dash/.git/
 
@@ -130,24 +132,24 @@ see below for macOS/Linux instructions!
 
 1. Create a virtual environment. We’re calling ours “venv” but you can use any name you want:
 
-	C:\easy_dashboard_tensorflow>python -m virtualenv venv
+		C:\easy_dashboard_tensorflow>python -m virtualenv venv
 
 
 2. Activate the virtual environment:
 
-	C:\easy_dashboard_tensorflow>.\venv\Scripts\activate 
+		C:\easy_dashboard_tensorflow>.\venv\Scripts\activate 
 
 
 3. Install dash and any desired dependencies into your virtual environment
 
-	(venv) C:\easy_dashboard_tensorflow>pip install dash
+		(venv) C:\easy_dashboard_tensorflow>pip install dash
 
-	(venv) C:\easy_dashboard_tensorflow>pip install -r requirements.txt
+		(venv) C:\easy_dashboard_tensorflow>pip install -r requirements.txt
 
 
 4. Install a new dependency gunicorn for deploying the app:
 
-	(venv) C:\easy_dashboard_tensorflow>pip install gunicorn
+		(venv) C:\easy_dashboard_tensorflow>pip install gunicorn
 
 
 STEP 5 (macOS/Linux) - Create, Activate and Populate a virtualenv
@@ -155,21 +157,21 @@ STEP 5 (macOS/Linux) - Create, Activate and Populate a virtualenv
 
 1. Create a virtual environment. We’re calling ours “venv” but you can use any name you want:
 
-	$ python3 -m python3 -m virtualenv venv
+		$ python3 -m python3 -m virtualenv venv
 
 2. Activate the virtual environment:
 
-	$ source venv/bin/activate
+		$ source venv/bin/activate
 
 
 3. Install dash and any desired dependencies into your virtual environment
 
-	$ pip install  -r requirements.txt
+		$ pip install  -r requirements.txt
 
 
 4. Install a new dependency gunicorn for deploying the app:
 
-	$ pip install gunicorn
+		$ pip install gunicorn
 
 
 
