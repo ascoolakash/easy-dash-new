@@ -179,17 +179,18 @@ STEP 6 - Add Files to the Development Folder
 
 The following files need to be added:
 
-app3.py	a Dash application
+	app3.py	
+Code of Dash application
 
-.gitignore	
+	.gitignore	
 
 used by git, identifies files that won’t be pushed to production
 
-Procfile	
+	Procfile		
 
 used for deployment
 
-requirements.txt	
+	requirements.txt	
 
 describes your Python dependencies, can be created automatically
 
