@@ -122,7 +122,7 @@ STEP 4 - Initialize Git
 
 1. Initialize an empty git repository:
 
-		C:\demo_easy_dash>git init
+		C:\easy_dashboard_tensorflow>git init
 
 Initialized empty Git repository in C:/demo_easy_dash/.git/
 
