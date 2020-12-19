@@ -1,31 +1,50 @@
 # demo-easy-dash
+
+
 Dashboard App creation via Python Dash
+
+
 Visualize and create a model
+
+
 Dashboard App 
+
+
 Our use case lets users visualise datasets without having any dependencies on the technical prerequisites. The aim here is to provide users with a dashboard driven machine learning tool. Some parallels of this tool are Tableau and weka. The powerful edge that the tool has is that no download of any shorts is needed. Our Tool is completely cloud based. The ease this gives is that even the non technical members of the group can use the aspects of machine learning easily. As we know the demand for the cloud based solution is rising every quarter. Due to this wide utility of cloud based solution I have implemented the solution on a cloud platform Heroku and AWS. Moreover the project is available on Github too for further research and development. In today's times the size of data is increasing day by day. Thus making it very critical to have a GUI driven cloud hosted ML tool that runs just like a blogging or any other site.
+
+
 We notice that the dashboard approach is also something that many tools tend to integrate these days. I have followed the same trend and implemented a dashboard approach rather than logging the event system for any particular data point. This dashboard is used to do following functionality :
+
+
 i.) visualize the datasets and download its report( consists of accuracy, val_accuracy, loss and val_loss), shows as accuracy and loss graphs and .h5 extension model using artificial neural networks with different types of activation function and optimizers.
+
+
 ii.) visualize the datasets and download its report( consists of accuracy, val_accuracy, loss and val_loss), shows as accuracy and loss graphs and .h5 extension model using inverse artificial neural networks with different types of activation function and optimizers. Note: Work is still in progress.
+
+
 iii.) creates model and report/results for image dataset ( in available online platform data should not exceeds 100Mb capacity), shows as accuracy and loss graphs. We can also test the model by providing input image to the online application and classify its output.
 Installation Manual with deployment in Heroku.
 
+
 Every Dash script so far has used app.run_server() to launch the app. By default the app runs on localhost, and you can only see it on your own machine.
+
 
 The good news is that Dash uses Flask as its web framework, so anywhere you can deploy Flask, you can deploy Dash. While there are many options out there including Digital Ocean, PythonAnywhere, Google Cloud, Amazon Web Services, Azure, etc., we’ll walk through an app deployment on Heroku.
 
 We can run the application in two ways:
+
 Steps to install in your own computer:
 
 Step 1 -  Clone project form Git
 
 Use below command on command prompt to clone the project form git or directly download the project from github.
-	git clone https://github.com/ascoolakash/demo-easy-dash
+	git clone https://github.com/ascoolakash/easy-dash-new.git
 
  
 STEP 2 - Directed to Development Folder
 
 Extract the downloaded or cloned development folder, then move to the development folder:
-	C:\>cd demo_easy_dash
+	C:\>cd easy_dash_new
 STEP 3 (WINDOWS) - Create virtualenv and download all the dependencies:
 see below for macOS/Linux instructions!
 1. Create a virtual environment. We’re calling ours “venv” but you can use any name you want:
