@@ -1,5 +1,19 @@
 # demo-easy-dash
 
+Demo video available in below link:
+
+https://drive.google.com/file/d/1pcpHE842aUrYSbkyyjERPU47jnzAx03G/view?usp=sharing
+
+
+Installation video available in below link:
+
+https://drive.google.com/file/d/15qtHvsIMbNas1t0sAfsnuVeoNclSwEJt/view?usp=sharing
+
+
+Deployment video available in below link:
+
+https://drive.google.com/file/d/1DGIpzaQmM0MEevqMaU2bKI6NQ8gOif1I/view?usp=sharing
+
 
 Dashboard App creation via Python Dash
 
