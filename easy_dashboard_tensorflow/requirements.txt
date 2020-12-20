@@ -32,10 +32,6 @@ wrapt==1.12.1
 absl-py==0.11.0
 astunparse==1.6.3
 cachetools==4.2.0
-gast==0.3.3
-google-auth==1.23.0
-google-auth-oauthlib==0.4.2
-google-pasta==0.2.0
 keras-preprocessing==1.1.2
 markdown==3.3.3
 tensorflow==2.3.1 
